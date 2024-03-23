@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+.div1 {
+  border: 1px solid;
+  border-color: rgb(120, 27, 207);
+  border-radius: 20px;
+  width: 400px;
+  margin: auto;
+  height: 300px;
+  margin-top: 50px; 
+}
+h1 {
+  color: rgb(104, 22, 180);
+  text-align: center;
+}
+p {
+  text-align: center;
+  font-size: 15px;
+}
+.div {
+  border: 1px solid;
+  border-color: blueviolet;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  margin: auto;
+  margin-top: 9px;
+  height: 30px;
+  line-height: 1.8;
+  cursor: grab;
+  transition: background-color 0.3s ease;
+}
+.div:hover {
+    background-color: rgba(228, 202, 239, 0.8);
+}
